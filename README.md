@@ -2,13 +2,13 @@
 
 ## 📌 Project Overview
 
-This project explores machine learning approaches to predict the **play type** (Run or Pass) in NFL games. By identifying patterns in play-calling decisions, this model aims to enhance strategic decision-making for teams, improve fan engagement, and provide valuable insights to coaches, players, and analysts alike.
+The goal of this project is to use machine learning to forecast the best American football play types (run vs. pass). The analysis include data cleaning, feature engineering, model comparison, and assessment of significant factors impacting play-calling choices
 
 ---
 
 ## 📊 Problem Statement
 
-The objective is to classify whether the next play in a football game will be a **run** or a **pass** based on contextual game variables. Accurate play-type prediction can offer a competitive edge in both defensive planning and in-game adjustments.
+The goal is to classify whether the next play in a football game will be a **run** or a **pass** based on contextual game variables. Accurate play-type prediction can offer a competitive edge in both defensive planning and in-game adjustments.
 
 ---
 
@@ -80,6 +80,7 @@ SVM exhibited superior generalization and stability compared to XGBoost, with a 
 
 ## 📂 Repository Contents
 
+- `dataset` — datasets used in this project
 - `NFL_analysis.ipynb` — Complete EDA, feature engineering, model training & evaluation
 - `NFL_Report.pdf` — Detailed project report & insights
 - `README.md` — Project summary and instructions
